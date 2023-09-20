@@ -3,11 +3,12 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles/style.css">
   <title>Бургер чеддер</title>
 </head>
 <body>
   <header class="header">
-    <div class="container">
+    <div class="container header__container">
       <a href="#!" class="header__logo logo">
         <img src="./img/logo.svg" alt="Логотип Бургер Чеддер" class="logo__img">
       </a>
@@ -18,19 +19,30 @@
           <li class="nav__item"><a href="#!" class="nav__link">Оформление заказа</a></li>
         </ul>
       </nav>
-      <p class="header__currency">$</p>
+      <p class="header__currency" title="Изменить валюту">$</p>
     </div>
   </header>
   <main class="main">
     <section class="hero">
-      <h1 class="hero__title">
-        <span>Новое меню</span>
-        Бургер чеддер
-      </h1>
-      <p class="hero__desc">
-        Мы обновили наше меню, спешите попробовать сезонные новинки и насладиться отличным вкусом наших бургеров. Готовим для вас лучшие бургеры в городе из отборной мраморной говядины.
-      </p>
-      <a href="#!" class="hero__link">Смотреть меню</a>
+      <div class="container hero__container">
+
+        <div class="hero__content">
+          <div class="hero__title-container">
+            <span class="hero__min-title">Новое меню</span>
+            <h1 class="hero__title">
+              Бургер чеддер
+            </h1>
+          </div>
+
+          <p class="hero__desc">
+            Мы обновили наше меню, спешите попробовать сезонные новинки и насладиться отличным вкусом наших бургеров. Готовим для вас лучшие бургеры в городе из отборной мраморной говядины.
+          </p>
+
+          <a href="#!" class="btn hero__btn">Смотреть меню</a>
+        </div>
+
+        <img class="hero__img" src="./img/main_burger.png" ali="Бургер">
+      </div>
     </section>
   </main>
 </body>

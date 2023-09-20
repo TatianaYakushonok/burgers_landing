@@ -1,0 +1,21 @@
+.header {
+  padding: 40px 0;
+  font-size: 18px;
+  background-color: transparent;
+}
+
+.header__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__currency {
+  width: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 0px 11px 0px;
+  border-radius: 5px;
+  border: 1px solid #fff;
+}
